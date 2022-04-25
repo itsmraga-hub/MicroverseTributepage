@@ -1,0 +1,17 @@
+@media screen 
+  and (min-device-width: 1200px) {
+    #navbar {
+        width: 0;
+        float: left;
+        position: fixed;
+        height: 100%; 
+        z-index: 1;
+    }
+    #main-doc {
+        position: relative;
+        width: auto;
+        margin-left: 20%;
+        display: flexbox;
+    }
+    
+  }
